@@ -35,6 +35,9 @@ cells.forEach((cell) => {
     button.addEventListener('click',function clean(){
         cell.style.backgroundColor = 'white';
     });
+
+    cell.addEventListener('click',(e)=>
+    cell.style.backgroundColor = 'white')
 });
 
 
